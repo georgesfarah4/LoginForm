@@ -40,6 +40,14 @@ body {
 .active {
   background-color: #80808033;
 }
+.input-field input:focus {
+  border-bottom: 1px solid #008eff !important;
+  box-shadow: 0 1px 0 0 #008eff !important;
+
+}
+.input-field input:focus + label {
+  color:#008eff !important;
+}
 
 #eye {
   position: absolute;
